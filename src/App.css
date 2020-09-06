@@ -1,3 +1,74 @@
+.Header {
+  color: red;
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: 10px solid red;
+}
+.ant-table-cell {
+  border-left: 8px solid #56a6ea;
+}
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #f0f0f0;
+  -webkit-transition: "background 0.3s";
+  transition: "background 0.3s";
+  background-color: #fbfafa;
+}
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  position: relative;
+  padding: 18px 16px;
+  overflow-wrap: break-word;
+}
+.ant-table-thead {
+  display: none !important;
+}
+.menuIcon {
+  color: white;
+  font-size: 18px;
+  border: 1px solid #f385c7;
+  background-color: #f385c7;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.box1 {
+  width: 500px;
+  border-radius: 0.3rem;
+  box-shadow: 0px 4px 10px -2px #aaa;
+  border: 1px solid #eee;
+  background-color: #fff;
+}
+.Main {
+  padding: 10px;
+}
+.button {
+  margin: 10px;
+}
 .App {
   text-align: center;
 }
